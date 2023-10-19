@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#fondo{
+    background-image: url(../img/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+}
+.flex{
+    display: flex;
+    height: 25vh;
+    width: 100%;
+}
+.__flex1{
+    display: flex;
+    justify-content: space-around;
+}
+.__flex1 img{
+    width: 15%;
+}
+.__flex2{
+    display: flex;
+    justify-content: space-between;
+}
+.__flex2 img{
+    width: 12%;
+}
+.__flex3{
+    display: flex;
+    justify-content: center;
+}
+.__flex3 img{
+    width: 10%;
+}
